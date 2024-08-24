@@ -1,0 +1,5 @@
+time and space complexity are represented by algebraic tools,
+because the execution of a particular task depends on several factors
+then using these tools in function of the inputs is more appropriate.
+
+Big O notation is an asymptotic way to represent the worst case scenario
