@@ -1,3 +1,16 @@
+/*
+Quicksort is a highly efficient, divide-and-conquer sorting algorithm that works 
+by selecting a "pivot" element from the array.
+ It then partitions the array into two subarrays:
+
+Elements less than the pivot.
+Elements greater than the pivot.
+The pivot is placed in its correct position within the sorted array. 
+The process is then recursively applied to the subarrays on either side of the pivot until the entire array is sorted.
+
+Quicksort is known for its average-case time complexity of O(n log n), 
+but its worst-case time complexity can be O(n²) if the pivot is poorly chosen.
+*/
 function quickSort(arr) {
   if (arr.length < 2) return arr;
   let pivot = arr[arr.length - 1];
